@@ -6,7 +6,8 @@
 **Flag:** `pwn.college{8kjNtS9YXcPKFOsxKpYMDNygF1k.QX3YjM1wiMwIzNzEzW}`
 
 Simply had to type the command hello into the terminal in order to obtain the flag. Below are all the commands written and outputs produced on the terminal.
-```:~$ hello
+```
+:~$ hello
 Success! Here is your flag:
 pwn.college{8kjNtS9YXcPKFOsxKpYMDNygF1k.QX3YjM1wiMwIzNzEzW}
 :~$ 
@@ -20,7 +21,8 @@ pwn.college{8kjNtS9YXcPKFOsxKpYMDNygF1k.QX3YjM1wiMwIzNzEzW}
 
 Had to type any Linux command with an argument into the terminal and the key was obtained. Below are all the commands written and outputs produced on the terminal.
 
-```:~$ hello hackers
+```
+:~$ hello hackers
 Success! Here is your flag:
 pwn.college{8cwCD808NDtlbYopkSSzeyf5Yfs.QX4YjM1wiMwIzNzEzW}
 ```
@@ -34,7 +36,8 @@ pwn.college{8cwCD808NDtlbYopkSSzeyf5Yfs.QX4YjM1wiMwIzNzEzW}
 
 Had to access past commands in the terminal using arrow keys and one of the past commands contained the key. Below are all the commands written and outputs produced on the terminal.
 
-```:~$ the flag is pwn.college{wkkA3Y1gU5hWjV8IjmET1GX3LKT.0lNzEzNxwiMwIzNzEzW}
+```
+:~$ the flag is pwn.college{wkkA3Y1gU5hWjV8IjmET1GX3LKT.0lNzEzNxwiMwIzNzEzW}
 ```
 
 ### New Learnings

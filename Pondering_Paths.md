@@ -6,7 +6,8 @@
 **Flag:** `pwn.college{AxZOPICDftIH70rxrubwKz3YIo8.QX4cTO0wiMwIzNzEzW}`
 
 Had to give the absolute path to a program pwn in order to run it which gave the flag. Below are all the commands written and outputs produced on the terminal.
-```~$ /pwn
+```
+~$ /pwn
 BOOM!!!
 Here is your flag:
 pwn.college{AxZOPICDftIH70rxrubwKz3YIo8.QX4cTO0wiMwIzNzEzW}
@@ -20,7 +21,8 @@ pwn.college{AxZOPICDftIH70rxrubwKz3YIo8.QX4cTO0wiMwIzNzEzW}
 
 Had to type a longer absolute path /challenge/run in order to execute the program named 'run' and obtain the flag. Below are all the commands written and outputs produced on the terminal.
 
-```:~$ /challenge/run
+```
+:~$ /challenge/run
 Correct!!!
 /challenge/run is an absolute path! Here is your flag:
 pwn.college{Mrww6GJNHzbR_n4lpAdct4rqpq2.QX1QTN0wiMwIzNzEzW}
@@ -34,7 +36,8 @@ pwn.college{Mrww6GJNHzbR_n4lpAdct4rqpq2.QX1QTN0wiMwIzNzEzW}
 
 Had to navigate to a given directory and execute the program 'run' again and obtain the flag. Below are all the commands written and outputs produced on the terminal.
 
-```:~$ /challenge/run
+```
+:~$ /challenge/run
 Incorrect...
 You are not currently in the /usr/aarch64-linux-gnu/include/gnu directory.
 Please use the `cd` utility to change directory appropriately.
@@ -54,7 +57,8 @@ pwn.college{Q7U9HEETMUXXa8B4n8OjNEg8w_l.QX2QTN0wiMwIzNzEzW}
 
 Had to navigate to a given directory and execute the program 'run' again to get the flag. Below are all the commands written and outputs produced on the terminal.
 
-```:~$ /challenge/run
+```
+:~$ /challenge/run
 Incorrect...
 You are not currently in the /proc/138 directory.
 Please use the `cd` utility to change directory appropriately.
@@ -74,7 +78,8 @@ pwn.college{0TRo_Mhfkgke4r6SH1eKamjoJUv.QX3QTN0wiMwIzNzEzW}
 
 Had to navigate to a given directory and execute the program 'run' again to show absolute path is independent of current directory to obtain the flag. Below are all the commands written and outputs produced on the terminal.
 
-```:~$ /challenge/run
+```
+:~$ /challenge/run
 Incorrect...
 You are not currently in the /tmp directory.
 Please use the `cd` utility to change directory appropriately.
@@ -94,7 +99,8 @@ pwn.college{AtzJD0wPBQqI9Ag3ummdiLFsG8D.QX4QTN0wiMwIzNzEzW}
 
 Used a relative path syntax to run a program by not speicifying initial directory program is stored in to obtain the flag. Below are all the commands written and outputs produced on the terminal.
 
-```:~$ /challenge/run
+```
+:~$ /challenge/run
 Incorrect...
 You are not currently in the / directory.
 Please use the `cd` utility to change directory appropriately.
@@ -114,7 +120,8 @@ pwn.college{omh28g5Zmm8_MIWHoqpghnrA-IO.QX5QTN0wiMwIzNzEzW}
 
 Had to use '.' implicity entry to refer to current directory '/' in relative path in order to obtain flag. Below are all the commands written and outputs produced on the terminal.
 
-```:~$ ./challenge/run
+```
+:~$ ./challenge/run
 bash: ./challenge/run: No such file or directory
 hacker@paths~explicit-relative-paths-from-:~$ cd /
 hacker@paths~explicit-relative-paths-from-:/$ ./challenge/run
@@ -132,7 +139,8 @@ pwn.college{8h8b3f3rkIn6ILgJBYJN5daK2nr.QXwUTN0wiMwIzNzEzW}
 
 Had to use implict entry '.' to execute correct file as naked path doesn't run in order to obtain flag. Below are all the commands written and outputs produced on the terminal.
 
-```:~$ cd /challenge
+```
+:~$ cd /challenge
 hacker@paths~implicit-relative-path:/challenge$ ./run
 Correct!!!
 ./run is a relative path, invoked from the right directory!
@@ -148,7 +156,8 @@ pwn.college{EN6Vw_ZlmM3Zl4BAQZaCfGL1XR0.QXxUTN0wiMwIzNzEzW}
 
 Had to provide an explicit path under 3 characters to a directory under '/home/hacker' where the copy of the flag would be received. Below are all the commands written and outputs produced on the terminal.
 
-```:~$ cd /
+```
+:~$ cd /
 hacker@paths~home-sweet-home:/$ challenge/run ~/asdf
 The argument you provided must not have been longer than 3 characters (it's 
 currently 6 characters long)!
